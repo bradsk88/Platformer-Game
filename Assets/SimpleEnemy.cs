@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * An entity which wanders the map randomly and jumps over obstacles.
+ * 
+ * This entity will also chase the player, but this is disabled at the moment.
+ */
 public class SimpleEnemy : MonoBehaviour, Character, Forcible
 {
 		

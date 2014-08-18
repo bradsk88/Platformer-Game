@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * Utilities for working with Dir enums.
+ */
 public class Dirs
 {
 

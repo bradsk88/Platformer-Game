@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * This class handles collisions with adjacent objects and the ground.  Use it
+ * as a delegate for another entity object and call FixedUpdate on each frame.
+ * Then, whenever that entity is to be moved, pass the amount of movement desired
+ * into getValidMovementX and/or getValidMovementY.
+ */
 public class Collisions
 {
 

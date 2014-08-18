@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * A FallSpawnBehavior is behavior for an object which falls at a constant speed until it comes in contact with the ground.
+ */
 public class FallSpawnBehavior : AbstractDamagingObject, Character
 {
 

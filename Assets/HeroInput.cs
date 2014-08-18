@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * This is the control behavior for the "hero" game entity.  It allows for 
+ * horizontal movement, jumping, and punching.
+ */ 
 public class HeroInput : MonoBehaviour, Character, Forcible
 {
 		private readonly float minActivation = 0.15f;
@@ -12,7 +16,6 @@ public class HeroInput : MonoBehaviour, Character, Forcible
 		//collision checking
 		private FistState fist;
 
- 	
 		private readonly MovementControl movementDelegate = new MovementControl (0.6f, 0.6f, 0.3f);
 
 		public HeroInput ()

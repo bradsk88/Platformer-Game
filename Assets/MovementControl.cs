@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * An object which may be moved horizontally or may jump.  Reacts to collisions
+ * and simulated gravity.
+ * 
+ * Should be used as a delegate for any entities which need to "move" on-screen.
+ */
 public class MovementControl : SpeedProvider, Forcible
 {
 		//walking

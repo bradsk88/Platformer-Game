@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * An object which may be present or absent.
+ */
 public class Optional<T> where T : struct
 {
 

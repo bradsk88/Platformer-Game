@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/** 
+ * Instantiates falling rock GameObjects at random positions on the map and
+ * at random intervals.
+ */
 public class Spawn : MonoBehaviour
 {
 

@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * This is camera behaviour which follows the player or "hero" and, upon a change
+ * in direction, will pause in place for a moment before it resumes following.
+ */
 public class FollowHero : MonoBehaviour
 {
 		public GameObject marker;

@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * A FistState is a damaging object which can be activated and remains
+ * "damaging" until a given number of frames have passed.
+ */
 public class FistState :   AbstractDamagingObject
 { 
 
